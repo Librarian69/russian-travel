@@ -3,7 +3,7 @@
   padding: 0;
   grid-area: places__website;
   list-style-type: none;
-  align-self: flex-end
+  align-self: flex-end;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
