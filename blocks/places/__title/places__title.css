@@ -26,18 +26,7 @@
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
-
-  .places__title {
-    max-width: 340px;
-    font-size: 42px;
-    line-height: 46px;
-    padding-left: 0;
-  }
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 599px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
   .places__title {
     max-width: 340px;

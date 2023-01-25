@@ -34,26 +34,17 @@
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
   .places__table {
-    max-width: 720px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 352px));
-    gap: 48px 16px;
-  }
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 599px) {
-
-  .places__table {
-    grid-template-columns: repeat(auto-fill, minmax(320px, 600px));
+    grid-template-columns: repeat(1, max(320px));
     grid-template-areas:
     "places__title"
     "places__website"
     "places__image"
     "places__paragraph";
     row-gap: 32px;
+    justify-content: center;
   }
 
 }
