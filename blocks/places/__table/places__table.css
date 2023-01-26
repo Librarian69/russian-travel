@@ -1,7 +1,7 @@
 .places__table {
   display: grid;
   max-width: 984px;
-  grid-template-columns: repeat(auto-fill, max(460px));
+  grid-template-columns: repeat(auto-fill, 460px 484px);
   grid-template-rows: repeat(auto-fill, auto);
   gap: 48px 40px;
   grid-template-areas:
@@ -18,7 +18,7 @@
 
   .places__table {
     max-width: 928px;
-    grid-template-columns: repeat(auto-fill, max(440px));
+    grid-template-columns: repeat(auto-fill, 440px 456px);
     gap: 48px 32px;
   }
 
@@ -30,21 +30,32 @@
     max-width: 720px;
     grid-template-columns: repeat(auto-fill, minmax(340px, 352px));
     gap: 48px 28px;
+    margin-top: 73px;
   }
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 670px) and (max-width: 767px) {
 
   .places__table {
-    grid-template-columns: repeat(1, max(320px));
+    max-width: 720px;
+    grid-template-columns: repeat(auto-fill, minmax(329px, 352px));
+    gap: 48px 16px;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 669px) {
+
+  .places__table {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 699px));
     grid-template-areas:
     "places__title"
     "places__website"
     "places__image"
     "places__paragraph";
     row-gap: 32px;
-    justify-content: center;
+    margin-top: 50px;
   }
 
 }

@@ -15,23 +15,23 @@
 
   .places {
     max-width: 720px;
+    margin: 0 auto 90px;
   }
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 670px) and (max-width: 767px) {
 
   .places {
-    margin: 0 24px 64px;
+    margin: 0 16px 64px;
   }
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 599px) {
+@media screen and (min-width: 320px) and (max-width: 669px) {
 
   .places {
-    max-width: 600px;
-    margin: 0 auto 64px;
+    margin: 0 0 64px;
   }
 
 }
