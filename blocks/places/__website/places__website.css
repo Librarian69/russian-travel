@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   grid-area: places__website;
-  list-style-type: none;
   align-self: flex-end;
 }
 
